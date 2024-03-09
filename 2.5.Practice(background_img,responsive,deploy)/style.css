@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin:0px;
+
+}
+.banner-container{
+    background-image: url('iStock-1002020774.jpg'), linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.4));
+    background-position:center; 
+    height: 100vh;
+   
+      
+   
+    background-repeat: no-repeat;   /*image does not reapet */
+      
+     background-size: cover;  /* most impotant that cover the full image*/
+} 
+.t{
+    color:red;
+    font-size: 45px;
+    font-weight: 700;
+    ;
+}
+@media only screen and (max-width:400px){
+    .t{
+        color:black;    }
+}

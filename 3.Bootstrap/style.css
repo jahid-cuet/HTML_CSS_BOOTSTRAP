@@ -1,0 +1,57 @@
+.bg{
+    background-color: #ACECE8;
+    
+}
+.logo_img{
+    padding-left: 50px;
+}
+.back_img{
+   
+    background-image: url("Hero Image.png"),linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.4));
+    width: 708px;
+    height: 974px;
+    flex-shrink: 0;
+    background-position:center; 
+    background-repeat: no-repeat; 
+    background-size: cover;  
+    padding-top: 100px;
+   
+ }
+ .banner-content{
+   
+background-color: rgb(115, 181, 176);
+color: #33475B;
+ } 
+ .cards{
+   
+height: 586px;
+flex-shrink: 0;
+    background-color: #CBF1EF;
+ }
+ .h{
+    text-align: center;
+    margin:20px;
+ }
+ .mar{
+    font-feature-settings: 'salt' on, 'liga' off;
+    
+    /* Subtitle / Subtitle 1 */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 155.556% */
+ }
+.cr{
+    margin-top:120px;
+}
+.f{
+    background-color: rgb(56, 82, 82);
+    
+}
+.see{
+text-align: center;
+margin:20px;
+border-radius: 15px;
+
+}

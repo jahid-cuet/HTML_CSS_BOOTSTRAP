@@ -1,0 +1,104 @@
+body{
+    margin:0px;
+}
+
+.navbar-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0D7B77;
+}
+.logo{
+width:150px;
+padding:7px;
+}
+.menus-container{
+    display: flex;
+    list-style: none;
+    gap:23px;
+    font-size: 22px;
+    color:white;
+}
+.banner-img{
+    /* width:100% */
+    width:60%;
+
+}
+.banner-container{
+    display:flex;
+    width:80%;
+    margin:auto;
+    height:100vh;
+    align-items: center;
+
+}
+.appoint{
+    font-size: 76px;
+    font-weight: bold;
+color:blueviolet;
+}
+.des{
+    font-size:25px;
+}
+button{
+    background-color: white;
+    border:none;
+    padding:15px 25px;
+    font-size: 18px;
+
+}
+.btn-app{
+background-color: #0D7B77;
+}
+.btn-doc{
+    background-color: #0D7B77;
+
+}
+
+.card-container{
+    display: flex;
+    gap:50px;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.service-img {
+    width: 150px;
+    height: 150px;
+   
+    padding-left: 25px;
+}
+.service-card{
+    border:solid 2px gray;
+    height:300px;
+    width:250px;
+}
+
+.title{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+color:blueviolet;
+}
+.input-box{
+    padding: 15px 30px;
+    margin:10px;
+}
+.contact-container{
+    text-align: center;
+    
+}
+.text-area{
+    padding:35px 50px;
+}
+.submit-btn{
+    padding:10px 20px;
+    width:35%;
+    margin-top:20px;
+    background-color: #a57029;
+    color:white;
+    /* font-size:22px; */
+    border:none;
+    
+}
